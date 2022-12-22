@@ -1,0 +1,39 @@
+* {
+    background-color: rgb(160, 134, 184);
+    cursor: url(maze.png), auto;
+}
+
+.game{
+    align-items: center;
+    padding-left: 370px;
+}
+
+.title{
+    display: grid;
+    place-content: center;    
+}
+
+.caja{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    place-content: center;
+}
+
+.grid {
+    width: 456px;
+    height: 456px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid .square {
+    height: 150px;
+    width: 150px;
+    border: solid black 1px;
+    background-color: #814A16;
+}
+
+.mole {
+    background-size: cover;
+    background-image: url(mole.png);
+}
